@@ -7,7 +7,7 @@ body{
 														/*fisrt index page index page = HOME */
 .container_1{
 	width: 99%;
-	height: 2430px;
+	height: 2420px;
 	background-color: white;
 	/*border: solid 1px;*/
 }
@@ -109,15 +109,15 @@ body{
 }
 .a1{
 	margin-top: 35px;
-	margin-left: 75px;
+	margin-left: 68px;
 	float: left;
-	width: 18%;
+	width: 18.5%;
 	height: 350px;
 	/*border: solid 2px red;*/
 }
 
 .a1 img{
-	width: 240px;
+	width: 242px;
 	height: 350px;
 }
 
@@ -149,13 +149,17 @@ body{
 }*/
 
 .a1:hover img {
-	opacity: 0.5;
-	transition: .2s ease;
+	opacity: 0.7;
+	transition: .4s ease;
 }
 
 .a1:hover {
 	
 	background-color: #186e9d; 
+}
+
+.c1:hover {
+	color: #186e9d; 
 }
 
 .page{
@@ -245,22 +249,19 @@ h2{
 	color:#186e9d;
 }
 
-.footer{
-	/*margin-top: 10px;*/	
-	/*margin-bottom: 5px;*/
+.footer {
+	border: 1px solid;
 	background-color:black;          
-	width: 100%;
+	width: 99%;
 	height: 50px	;
-	/*padding-bottom: 5px;*/
+	padding-bottom: 20px;
 }
 
 .footer p{
-	padding-top: 10px;
 	font-family: sans-serif;
 	font-size: 23px;
 	color: white;
 	padding-left: 350px;
-	/*margin-bottom: 5px;*/
 
 }
 
@@ -476,7 +477,7 @@ h2{
 										/*3rd page start from here " PREVIEW page = CATALOGS " */
 .container_3 {
 	width: 99%;
-	height: 2020px;
+	height: 2800px;
 	background-color: white;
 	/*border: solid 1px;*/
 }
@@ -594,33 +595,37 @@ h2{
 
 .container_4{
 	width: 99%;
-	height: 2400px;
+	height: 2430px;
 	background-color: white;
-	border: solid 1px;
+	/*border: solid 1px;*/
 }
 
-.form_section {
-	float: left;
-	margin-top: 40px;
-	margin-left: 70px;
-	width: 93%;
-	height: 700px;
-	border: 1px solid;
-}
-
-.form_section h1 {
+.container_4 h2 {
+	margin-top: 90px;
+	margin-left: 55px;
 	color:#186e9d;
 	font-size: 40px;
 	font-weight: lighter;
 }            
 
+
+.form_section {
+	float: left;
+	/*margin-top: 10px;*/
+	margin-left: 43px;
+	/*margin: auto;*/
+	width: 93%;
+	height: 650px;
+	/*border: 1px solid;*/
+}
+
 .form_1 {
 	float: left;
-	margin-top: 5px;
-	padding:0px;
+	/*margin-top: 5px;*/
+	padding-left:30px;
 	width: 50%;
 	height: 600px;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 }
 
 .form_1 input {
@@ -656,8 +661,8 @@ h2{
 }
 
 .des_form {
-	border: 1px solid blue;
-	margin-left: 12px;
+	/*border: 1px solid blue;*/
+	/*margin-left: 12px;*/
 	/*margin-top: 5px;*/	
 	float: left;
 	width:45%;
@@ -695,48 +700,54 @@ h2{
 }
 
 .rect_grey {
+	text-align: center;
 	color: white; 
 	width:90%;
-	height:450px;
+	height:300px;
 	background-color: grey;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-left: 65px;
+	padding-top: 150px;
 	/*margin:auto;*/
 
 }
 
-.rect_a {
-	width:100%;
+
+
+
+.footer_4{
+	/*margin-top: 40.5%;	*/
+	/*margin-bottom: 5px;*/
+	background-color:black;          
+	width: 100%;
+	height: 80px	;
+	/*padding-bottom: 5px;*/
+}
+
+.footer_4 p{
+	padding-top: 25px;
+	font-family: sans-serif;
+	font-size: 23px;
+	color: white;
+	padding-left: 350px;
+	/*margin-bottom: 5px;*/
+
+}
+
+
+.rect_4 {
+	width:89%;
 	height:450px;
 	background-color: #186e9d;
-	/*margin-top: 60px;*/
-	/*margin-left: 5px;*/
-	/*margin:auto;*/
-
+	margin-top: 60px;
+	margin-left: 65px;
+	color: white;
 }
 
-.divv {
-	margin: 20px;
-/*	width: 20%;
-	height: 50%;*/
-	border:1px solid red;
-} 
-
-.divv p {
-	/*margin-top: 5%;*/
-	/*clear: left;*/
-	color: #186e9d; 
+.rect_4{
+	padding-left: 10px;
 	font-size: 35px;
-	/*padding-right: 25px;*/
-	/*margin-right: 25px;*/
-	/*padding-left: 45px;*/
-
 }
-
-
-
-
-
 
 
 
